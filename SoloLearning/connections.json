@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-BB2UC3T\\SQLEXPRESS;Database=SoloDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.deps.json
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.pdb
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.csprojAssemblyReference.cache
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.csproj.CoreCompileInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.AssemblyInfoInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.AssemblyInfo.cs
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.deps.json
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.Services.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.csproj.CoreCompileInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.AssemblyInfoInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.AssemblyInfo.cs
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.pdb

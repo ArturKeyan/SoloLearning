@@ -1,0 +1,13 @@
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\SoloLearning.DAL.deps.json
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\SoloLearning.DAL.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\SoloLearning.DAL.pdb
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.AssemblyInfoInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.AssemblyInfo.cs
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.pdb
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\obj\Debug\netcoreapp2.1\SoloLearning.DAL.csproj.CopyComplete
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Artur Keyan\source\repos\SoloLearning.DAL\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
