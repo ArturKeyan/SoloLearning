@@ -12,7 +12,8 @@ namespace SoloLearning.Services.Intefaces
         Task CreateRoom(RoomDTO roomDTO);
         Task<RoomDTO> GetRoom(int roomId);
         Task<IEnumerable<RoomDTO>> GetAllRooms();
-        Task RemoveRoom(int roomId);
+        Task RemoveRoom(int Id);
+        Task RemoveMessage(int Id);
 
     }
 }

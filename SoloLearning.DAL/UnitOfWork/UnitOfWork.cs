@@ -11,17 +11,27 @@ namespace SoloLearning.DAL.UnitOfWork
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly ApplicationContext context;
-        private IRoomRepository chatRepository;
+        private IRoomRepository roomRepository;
+        private IMessageRepository messageRepository;
+
         public UnitOfWork(ApplicationContext context)
         {
             this.context = context;
+        }
+
+        public IMessageRepository MessageRepository
+        {
+            get
+            {
+                return messageRepository ?? (messageRepository = new MessageRepositry(context));
+            }
         }
 
         public IRoomRepository RoomRepository
         {
             get
             {
-                return chatRepository ?? (chatRepository = new RoomRepository(context));
+                return roomRepository ?? (roomRepository = new RoomRepository(context));
             }
         }
 

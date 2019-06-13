@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +11,10 @@ using SoloLearning.DAL;
 using SoloLearning.DAL.Implementations;
 using SoloLearning.DAL.Intefaces;
 using SoloLearning.DAL.UnitOfWork;
+using SoloLearning.Services.Implementations;
+using SoloLearning.Services.Intefaces;
+using SoloLearning.Web;
+using SoloLearning.Web.Models;
 
 namespace SoloLearning
 {
@@ -31,10 +36,24 @@ namespace SoloLearning
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
+
             // add service here
+            services.AddScoped<IChatService, ChatService>();
 
             services.AddSingleton<IUnitOfWork, UnitOfWork>();
 
+            services.AddTransient<IValidator<MessageCreateModel>, MessageCreateModelValidator>();
+            services.AddTransient<IValidator<RoomCreateModel>, RoomCreateModelValidator>();
+
+            services.AddSignalR();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // In production, the Angular files will be served from this directory
@@ -69,6 +88,12 @@ namespace SoloLearning
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseSpaStaticFiles();
+            app.UseCors("CorsPolicy");
+
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<ChatHub>("/chat");
+            });
 
             app.UseMvc(routes =>
             {

@@ -53,13 +53,6 @@ namespace SoloLearning.Web.Controllers
             }
         }
 
-        // GET api/<controller>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
         // POST api/<controller>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]RoomCreateModel model)
@@ -83,16 +76,10 @@ namespace SoloLearning.Web.Controllers
                 return HandleException(ex);
             }
         }
-
-        // PUT api/<controller>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
+        
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteAsync(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {
@@ -103,7 +90,6 @@ namespace SoloLearning.Web.Controllers
             {
                 return HandleException(ex);
             }
-
         }
     }
 }

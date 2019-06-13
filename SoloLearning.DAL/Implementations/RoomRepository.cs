@@ -46,7 +46,10 @@ namespace SoloLearning.DAL.Implementations
                 {
                     Id = k.Id,
                     Text = k.Text,
-                    UserId = k.UserId
+                    User = new UserDTO
+                    {
+                        Id = k.User.Id
+                    }
                 })
             });
 
@@ -68,7 +71,9 @@ namespace SoloLearning.DAL.Implementations
                 {
                     Id = k.Id,
                     Text = k.Text,
-                    UserId = k.UserId
+                    User = new UserDTO {
+                        Id = k.User.Id
+                    } 
                 })
             };
 

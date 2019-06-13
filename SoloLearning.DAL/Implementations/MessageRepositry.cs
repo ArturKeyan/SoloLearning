@@ -23,11 +23,17 @@ namespace SoloLearning.DAL.Implementations
             {
                 Text = messageDTO.Text,
                 RoomId = messageDTO.RoomId,
-                UserId = messageDTO.UserId,
+                UserId = messageDTO.User.Id,
                 CreatedDate = DateTime.Now
             };
 
             await context.Messages.AddAsync(message);
+        }
+
+        public async Task Delete(int id)
+        {
+            Message message = await context.Messages.FindAsync(id);
+            context.Messages.Remove(message);
         }
     }
 }

@@ -21,7 +21,6 @@ namespace SoloLearning.Services.Implementations
         {
             await unitOfWork.RoomRepository.Add(roomDTO);
             await unitOfWork.SaveAsync();
-
         }
 
         public async Task<IEnumerable<RoomDTO>> GetAllRooms()
@@ -39,20 +38,16 @@ namespace SoloLearning.Services.Implementations
             await unitOfWork.RoomRepository.Delete(roomId);
             await unitOfWork.SaveAsync();
         }
-
-        public Task SendMessage(MessageDTO messageDTO)
+        public async Task RemoveMessage(int roomId)
         {
-            throw new NotImplementedException();
-        }
+            await unitOfWork.MessageRepository.Delete(roomId);
+            await unitOfWork.SaveAsync();
+        }        
 
-        Task<IEnumerable<RoomDTO>> IChatService.GetAllRooms()
+        public async Task SendMessage(MessageDTO messageDTO)
         {
-            throw new NotImplementedException();
-        }
-
-        Task<RoomDTO> IChatService.GetRoom(int roomId)
-        {
-            throw new NotImplementedException();
+            await unitOfWork.MessageRepository.Add(messageDTO);
+            await unitOfWork.SaveAsync();
         }
     }
 }

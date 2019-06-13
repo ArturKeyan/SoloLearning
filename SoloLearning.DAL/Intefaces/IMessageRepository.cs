@@ -9,5 +9,6 @@ namespace SoloLearning.DAL.Intefaces
     public interface IMessageRepository
     {
         Task Add(MessageDTO messageDTO);
+        Task Delete(int id);
     }
 }
