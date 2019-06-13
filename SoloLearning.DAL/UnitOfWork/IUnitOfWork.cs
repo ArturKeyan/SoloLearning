@@ -8,7 +8,7 @@ namespace SoloLearning.DAL.UnitOfWork
 {
     public interface IUnitOfWork
     {
-        IRoomRepository ChatRepository { get; }
+        IRoomRepository RoomRepository { get; }
         Task SaveAsync();
     }
 }

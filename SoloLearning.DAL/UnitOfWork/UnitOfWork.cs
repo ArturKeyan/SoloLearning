@@ -17,7 +17,7 @@ namespace SoloLearning.DAL.UnitOfWork
             this.context = context;
         }
 
-        public IRoomRepository ChatRepository
+        public IRoomRepository RoomRepository
         {
             get
             {

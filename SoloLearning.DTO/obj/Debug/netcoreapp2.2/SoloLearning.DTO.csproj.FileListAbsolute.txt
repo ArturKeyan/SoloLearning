@@ -6,3 +6,4 @@ C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Deb
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.AssemblyInfo.cs
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.dll
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.csprojAssemblyReference.cache

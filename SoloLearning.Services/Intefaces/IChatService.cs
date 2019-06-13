@@ -8,10 +8,11 @@ namespace SoloLearning.Services.Intefaces
 {
     public interface IChatService
     {
-        Task<bool> SendMessage(MessageDTO messageDTO);
-        Task<bool> CreateRoom(RoomDTO roomDTO);
+        Task SendMessage(MessageDTO messageDTO);
+        Task CreateRoom(RoomDTO roomDTO);
         Task<RoomDTO> GetRoom(int roomId);
         Task<IEnumerable<RoomDTO>> GetAllRooms();
+        Task RemoveRoom(int roomId);
 
     }
 }

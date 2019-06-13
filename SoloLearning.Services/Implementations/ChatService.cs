@@ -17,24 +17,30 @@ namespace SoloLearning.Services.Implementations
             this.unitOfWork = unitOfWork;
         }
 
-        public Task<bool> CreateRoom(RoomDTO roomDTO)
+        public async Task CreateRoom(RoomDTO roomDTO)
         {
-            //string path = await unitOfWork.ChatRepository.Add(designDTO, replaceFirst);
-            //return path;
-            throw new NotImplementedException();
+            await unitOfWork.RoomRepository.Add(roomDTO);
+            await unitOfWork.SaveAsync();
+
         }
 
-        public Task<IEnumerable<RoomDTO>> GetAllRooms()
+        public async Task<IEnumerable<RoomDTO>> GetAllRooms()
         {
-            throw new NotImplementedException();
+            return await unitOfWork.RoomRepository.Get();
         }
 
-        public Task<RoomDTO> GetRoom(int roomId)
+        public async Task<RoomDTO> GetRoom(int roomId)
         {
-            throw new NotImplementedException();
+            return await unitOfWork.RoomRepository.Get(roomId);
         }
 
-        public Task<bool> SendMessage(MessageDTO messageDTO)
+        public async Task RemoveRoom(int roomId)
+        {
+            await unitOfWork.RoomRepository.Delete(roomId);
+            await unitOfWork.SaveAsync();
+        }
+
+        public Task SendMessage(MessageDTO messageDTO)
         {
             throw new NotImplementedException();
         }
