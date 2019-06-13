@@ -18,3 +18,9 @@ C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\obj\Deb
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\obj\Debug\netcoreapp2.2\SoloLearning.DAL.AssemblyInfo.cs
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\obj\Debug\netcoreapp2.2\SoloLearning.DAL.dll
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\obj\Debug\netcoreapp2.2\SoloLearning.DAL.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\bin\Debug\netcoreapp2.2\SoloLearning.DAL.deps.json
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\bin\Debug\netcoreapp2.2\SoloLearning.DAL.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\bin\Debug\netcoreapp2.2\SoloLearning.DAL.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\bin\Debug\netcoreapp2.2\SoloLearning.DTO.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\bin\Debug\netcoreapp2.2\SoloLearning.DTO.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DAL\obj\Debug\netcoreapp2.2\SoloLearning.DAL.csproj.CopyComplete

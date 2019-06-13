@@ -15,3 +15,9 @@ C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\ob
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.AssemblyInfo.cs
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.dll
 C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.csprojAssemblyReference.cache
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.DAL.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.DTO.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.DAL.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\bin\Debug\netcoreapp2.2\SoloLearning.DTO.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.Services\obj\Debug\netcoreapp2.2\SoloLearning.Services.csproj.CopyComplete

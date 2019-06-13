@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoloLearning.Web", "SoloLearning\SoloLearning.Web.csproj", "{CFABF099-B9BA-4F5F-BD73-AFC6FB2C2206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearning.DAL", "SoloLearning.DAL\SoloLearning.DAL.csproj", "{85DC4385-B29B-4E26-B8B2-982751A1A2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoloLearning.DAL", "SoloLearning.DAL\SoloLearning.DAL.csproj", "{85DC4385-B29B-4E26-B8B2-982751A1A2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearning.Services", "SoloLearning.Services\SoloLearning.Services.csproj", "{57349C2A-F17E-4866-9EAF-764AA6D2DB04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoloLearning.Services", "SoloLearning.Services\SoloLearning.Services.csproj", "{57349C2A-F17E-4866-9EAF-764AA6D2DB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearning.DTO", "SoloLearning.DTO\SoloLearning.DTO.csproj", "{0B9FBC8F-CD51-45D6-BE10-C6C4ECF5BC3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{57349C2A-F17E-4866-9EAF-764AA6D2DB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57349C2A-F17E-4866-9EAF-764AA6D2DB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57349C2A-F17E-4866-9EAF-764AA6D2DB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9FBC8F-CD51-45D6-BE10-C6C4ECF5BC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9FBC8F-CD51-45D6-BE10-C6C4ECF5BC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9FBC8F-CD51-45D6-BE10-C6C4ECF5BC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9FBC8F-CD51-45D6-BE10-C6C4ECF5BC3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

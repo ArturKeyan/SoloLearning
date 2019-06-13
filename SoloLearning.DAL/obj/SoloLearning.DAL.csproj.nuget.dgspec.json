@@ -29,6 +29,74 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\SoloLearning.DTO.csproj": {
+                "projectPath": "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\SoloLearning.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\SoloLearning.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\SoloLearning.DTO.csproj",
+        "projectName": "SoloLearning.DTO",
+        "projectPath": "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\SoloLearning.DTO.csproj",
+        "packagesPath": "C:\\Users\\Artur Keyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artur Keyan\\source\\repos\\SoloTest\\SoloLearning\\SoloLearning.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Artur Keyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -41,14 +109,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

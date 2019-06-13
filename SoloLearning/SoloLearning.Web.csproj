@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SoloLearning.DAL\SoloLearning.DAL.csproj" />
+    <ProjectReference Include="..\SoloLearning.DTO\SoloLearning.DTO.csproj" />
     <ProjectReference Include="..\SoloLearning.Services\SoloLearning.Services.csproj" />
   </ItemGroup>
 

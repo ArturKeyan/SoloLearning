@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Implementations\" />
-    <Folder Include="Intefaces\" />
+    <ProjectReference Include="..\SoloLearning.DAL\SoloLearning.DAL.csproj" />
+    <ProjectReference Include="..\SoloLearning.DTO\SoloLearning.DTO.csproj" />
   </ItemGroup>
 
 </Project>

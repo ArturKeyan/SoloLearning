@@ -11,34 +11,22 @@ namespace SoloLearning.DAL.UnitOfWork
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly ApplicationContext context;
-        private IChatRepository chatRepository;
+        private IRoomRepository chatRepository;
         public UnitOfWork(ApplicationContext context)
         {
             this.context = context;
         }
 
-        public IChatRepository ChatRepository
+        public IRoomRepository ChatRepository
         {
             get
             {
-                return chatRepository ?? (chatRepository = new ChatRepository(context));
+                return chatRepository ?? (chatRepository = new RoomRepository(context));
             }
         }
 
 
         #region save
-
-        public void Save()
-        {
-            try
-            {
-                context.SaveChanges();
-            }
-            catch (DbUpdateException ex)
-            {
-                DbUpdateExceptionHandler(ex);
-            }
-        }
 
         public async Task SaveAsync()
         {

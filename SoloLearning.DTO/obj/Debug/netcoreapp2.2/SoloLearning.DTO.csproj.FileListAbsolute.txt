@@ -1,0 +1,8 @@
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\bin\Debug\netcoreapp2.2\SoloLearning.DTO.deps.json
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\bin\Debug\netcoreapp2.2\SoloLearning.DTO.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\bin\Debug\netcoreapp2.2\SoloLearning.DTO.pdb
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.AssemblyInfoInputs.cache
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.AssemblyInfo.cs
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.dll
+C:\Users\Artur Keyan\source\repos\SoloTest\SoloLearning\SoloLearning.DTO\obj\Debug\netcoreapp2.2\SoloLearning.DTO.pdb
