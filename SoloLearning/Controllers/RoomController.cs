@@ -29,14 +29,16 @@ namespace SoloLearning.Web.Controllers
                 var roomModels = (await chatService.GetAllRooms()).Select(m => new RoomModel {
                     Id = m.Id,
                     Name = m.Name,
-                    Owner = new UserModel {
+                    Owner = m.Owner == null ? null : new UserModel
+                    {
                         Name = m.Owner.Name,
                         Id = m.Owner.Id
                     },
-                    Messages = m.Messages.Select(k => new MessageModel {
+                    Messages = m.Messages == null ? null : m.Messages.Select(k => new MessageModel
+                    {
                         Id = k.Id,
                         Text = k.Text,
-                        User = new UserModel
+                        User = k.User == null ? null : new UserModel
                         {
                             Name = k.User.Name,
                             Id = k.User.Id,

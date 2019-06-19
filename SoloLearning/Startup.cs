@@ -48,7 +48,7 @@ namespace SoloLearning
             // add service here
             services.AddScoped<IChatService, ChatService>();
 
-            services.AddSingleton<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddTransient<IValidator<MessageCreateModel>, MessageCreateModelValidator>();
             services.AddTransient<IValidator<RoomCreateModel>, RoomCreateModelValidator>();
